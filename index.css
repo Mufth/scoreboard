@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    text-align: center;
+    background: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 575px;
+    margin: 0 auto;
+}
+
+h1 {
+    background: #080001;
+    color: #F94F6D;
+    width: 155px;
+    font-size: 90px;
+    font-weight: 400;
+    padding: 10px 0;
+    margin: 0 0 .4em;
+    border-radius: 5px;
+    font-family: Cursed Timer ULiL;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #eeeeee;
+    font-size: 40px;
+    margin: .5em 0;
+}
+
+.container-btns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btns {
+    border: solid 2px #9AABD8;
+    background: #1B244A;
+    color: #9AABD8;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+}
+
+#new-game {
+    margin-top: 15px;
+    width: 100px;
+}
